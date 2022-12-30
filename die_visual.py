@@ -29,4 +29,4 @@ y_axis_config = {'title': '结果的频率'}
 my_layout = Layout(title='掷一个 D6 和一个 D10 的骰子 1000 次的结果', 
                 xaxis=x_axis_config, yaxis=y_axis_config)
 
-offline.plot({'data': data, 'layout': my_layout}, filename='d6_d10.html')
+offline.plot({'data': data, 'layout': my_layout}, filename='result/d6_d10.html')
